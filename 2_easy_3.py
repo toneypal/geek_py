@@ -5,12 +5,19 @@
 
 
 list = [1,2,3,4,5,6,7,8,9,1234,1234,34567,5678,89,345,567,78,89,0]
+list_new = []
 
 for i in list:
     if i % 2:
-        print("i = ", i)
+        # print("i = ", i)
         i = i / 4
-        print ("i/4 = ",i)
+        # print ("i/4 = ",i)
+        list_new.append(i)
+        # print(list_new)
     else:
         i = i * 2
-        print("i*2 = ", i)
+        # print("i*2 = ", i)
+        list_new.append(i)
+
+
+print("Новый   список: ",list_new)
