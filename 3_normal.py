@@ -15,8 +15,17 @@
 names = ['Лера', 'Мурад', 'Паша В.', 'Айгуль', 'Дима']
 sellary = [280000, 500000, 850000, 150000, 250000]
 
-
+# dict = {'Рома': 450000}
 dict = {}
+
+# for name in names:
+#     for sel in sellary:
+
+# for key in dict.keys():
+#     for value in dict.values():
+
+        # dict = map(dict.keys(), name)
+
 
 for key_names, value_names in enumerate(names):
     for key, value in dict.items():
@@ -28,3 +37,36 @@ for key_sellary, value_sellary in enumerate(sellary):
 
 print(dict)
 
+# for key, value in enumerate(sellary):
+#     dict[value] = value
+#     # print(dict)
+#
+# for key,value in dict.items():
+
+
+
+        # for name in names:
+        #     for sel in sellary:
+        #         # dict.update(name,sel)
+        #         # map(dict, names, sellary)
+        #         # print (dict)
+        #         key = name
+        #         value = sel
+
+                # name = dict.keys()
+                # sel = dict.values()
+                # dict = map(dict, names, sellary)
+
+
+
+#
+# for key in dict.keys():
+#     for value in dict.values():
+#         key = names[key]
+#         print(key)
+#         print(key)
+#         value = sellary[value]
+#         print(value)
+
+
+# print (dict)
