@@ -79,12 +79,12 @@ while answer != 'q':
                     dir_del_path = input( "Введите путь до этой папки: ")
                     if os.path.exists( dir_del_path ):
                         try:
-                            os.remove( dir_del_path )
+                            os.remove( dir_del_path)
                             print( "Файл успешно удален" )
                         except Exception as e:
                             print( e )
                     else:
-                        print( f'Я не смог найти файл {dir_del_path}')
+                        print(f'Я не смог найти файл {dir_del_path}')
 
         elif answer == 'n':
             print( "Good bay!" )
